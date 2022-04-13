@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+
+        <form action="/register" method="POST">
+
+        <div>
+            <label for="name">Nombre y Apellido</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="name">Nombre de usuari@</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="addres">Direccion</label>
+            <input type="text" name="addres" id="addres">
+        </div>
+        <div>
+            <p>Perfil de Usuari@</p>
+            <label>
+                <input type="radio" name="option" value="Compra"> Comprar
+            </label>
+            <label>
+                <input type="radio" name="option" value="Vender"> Vender
+            </label>
+        </div>
+
+        <div>
+            <p>Categorias de Interes</p>
+            <select name="categories" id="categories">
+                <option value="" disabled selected> Selecciona una categoria</option>
+                <option value="Electro">Electro</option>
+                <option value="Moda">Moda</option>
+                <option value="Hogar">Hogar</option>
+                <option value="Jugueteria">Jugueteria</option>
+                <option value="Vida sana">Vida sana</option>
+            </select>
+            
+        </div>
+<!-- Foto  de usuario iria aca-->
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password">
+        </div>
+<!--Agregar que la contraseña tiene que ser minimo 8 caracteres-->
+        <div>
+            <label for="password">Confirmar Contraseña</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+
+    </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
