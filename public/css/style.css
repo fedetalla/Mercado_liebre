@@ -255,6 +255,19 @@ a {
 }
 
 @media (min-width: 769px){
+    .navBar{
+        
+            display: flex;
+            justify-content: space-around;
+        }
+    .navBar ul{
+            display: flex;
+        }
+    .navBar li{
+            margin: 0px 10px;
+    
+        }
+
     .burger-menu {
         display: none;
     }
