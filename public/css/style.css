@@ -225,6 +225,56 @@ a {
     font-size: x-small;
     text-align: center;
 }
+
+/* FORMULARIO */
+.formulario{
+    padding: 20px 15px;
+}
+
+.style-form{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-form label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+.input-class{
+    width: 50%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.button-form{
+    border: 1px solid #161414;
+    font-size: 18px;
+    color: black;
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.button-div{
+    text-align: center;
+}
+.button-form:hover{
+    background-color: #0022AA;
+    cursor: pointer;
+}
+input {
+    border-width: 0px;
+    text-align: center;
+}
+
+.descripciones{
+        display: block;
+        width: 200px;
+    }
 /* MEDIAS QUERIES */
 
 @media (min-width: 361px){
